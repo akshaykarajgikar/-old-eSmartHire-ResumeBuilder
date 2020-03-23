@@ -32,12 +32,12 @@ input {
 }
 
 .side-links .link-text {
-  transition: font-weight 200ms;
+  color: gray;
 }
 
 .side-links .active .link-text,
 .side-links .link-text:hover {
-  font-weight: bold;
+  color: black;
 }
 /* 
 .side-links {
