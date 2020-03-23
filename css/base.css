@@ -1,0 +1,32 @@
+input {
+  outline: 0;
+}
+.bordered-input {
+  border: none;
+}
+.bordered-input:hover,
+.bordered-input:focus {
+  border: 1px solid whitesmoke;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.side-links h6 {
+  font-weight: 400;
+}
+.side-links h6:hover {
+  font-weight: 500;
+}
+.side-links .active,
+.side-links .active:hover {
+  font-weight: bold;
+}
+
+.side-links {
+  height: calc(100vh - 56px - 48px);
+}
