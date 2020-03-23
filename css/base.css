@@ -44,7 +44,7 @@ input {
 }
 
 .side-links .active .link-text,
-.side-links .link-text:hover {
+.side-links a:hover .link-text {
   color: black;
 }
 
