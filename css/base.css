@@ -49,6 +49,10 @@ input {
   height: 150px;
 }
 
+.fit-content {
+  width: fit-content;
+}
+
 /* 
 .side-links {
   height: calc(100vh - 56px - 48px);
