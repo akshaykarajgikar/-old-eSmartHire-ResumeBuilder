@@ -75,3 +75,10 @@ input {
 .limit-500 {
   max-width: 500px;
 }
+
+.card-hover-effect {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+.card-hover-effect:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
