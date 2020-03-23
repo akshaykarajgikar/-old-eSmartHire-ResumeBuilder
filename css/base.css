@@ -16,17 +16,30 @@ input {
   background-color: black;
 }
 
-.side-links h6 {
-  font-weight: 400;
-}
-.side-links h6:hover {
-  font-weight: 500;
-}
-.side-links .active,
-.side-links .active:hover {
-  font-weight: bold;
+.side-links .link-pointer {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+  transform: scale(0.5);
+  transition: transform 400ms;
 }
 
+.side-links .active .link-pointer,
+.side-links a:hover .link-pointer {
+  background-color: blue;
+  transform: scale(1);
+}
+
+.side-links .link-text {
+  transition: font-weight 200ms;
+}
+
+.side-links .active .link-text,
+.side-links .link-text:hover {
+  font-weight: bold;
+}
+/* 
 .side-links {
   height: calc(100vh - 56px - 48px);
-}
+} */
